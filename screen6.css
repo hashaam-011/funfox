@@ -1,0 +1,52 @@
+/* ActivityGuideModal.css */
+.activity-guide-modal {
+    position: fixed;
+    background-color: #f9e2ef;
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    max-width: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .activity-table {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .table-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-row .table-cell, .answer-row .table-cell {
+    flex: 1;
+    padding: 10px;
+    background-color: #fce4f6;
+    border: 1px solid #d6336c;
+    margin: 2px;
+    text-align: center;
+  }
+
+  .description-cell {
+    flex: 2; /* This cell is larger to accommodate more text */
+  }
+
+  /* Add any additional styles for elements in the component */

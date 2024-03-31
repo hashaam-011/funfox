@@ -1,0 +1,68 @@
+/* App.css */
+
+.container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9e2ef;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .week-button {
+    background-color: #fcb8d2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .header-icons img {
+    padding: 0 10px;
+  }
+
+  .title {
+    font-size: 24px;
+    color: #d6336c;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .introduction, .elements-introduction p, .lesson-note p {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+
+  .elements-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .elements-list span {
+    background-color: #fcb8d2;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+
+  .lesson-note {
+    background-color: #fdd7e4;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
